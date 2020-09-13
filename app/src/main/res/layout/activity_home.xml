@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mountain" />
+
+    <TextView
+        android:id="@+id/username_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#03A9F4"
+        android:padding="15dp"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/user_desc_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_text_view"
+        android:layout_marginTop="15dp"
+        android:background="#03A9F4"
+        android:padding="15dp"
+        android:text="TextView"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/go_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="@string/start_third_activity"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</RelativeLayout>
